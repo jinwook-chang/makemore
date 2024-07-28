@@ -3,20 +3,18 @@
 ## PART 1
 
 Lecture:
-[/part1/01_bigram.py](Bigram)
+[bigram](/part1/01_bigram.py)
 
 Exercises:
 
 
 E01: train a trigram language model, i.e. take two characters as an input to predict the 3rd one. Feel free to use either counting or a neural net. Evaluate the loss; Did it improve over a bigram model?
 
-[/part1/0101_trigram_counter.py](Trigram Counter)
-[/part1/0102_trigram_neural.py](Trigram Neural)
+[trigram counet](/part1/0101_trigram_counter.py)
+[trigram neural](/part1/0102_trigram_neural.py)
 
 
 E02: split up the dataset randomly into 80% train set, 10% dev set, 10% test set. Train the bigram and trigram models only on the training set. Evaluate them on dev and test splits. What can you see?
-
-[/part1/0103_evaluation.py]
 
 
 E03: use the dev set to tune the strength of smoothing (or regularization) for the trigram model - i.e. try many possibilities and see which one works best based on the dev set loss. What patterns can you see in the train and dev set loss as you tune this strength? Take the best setting of the smoothing and evaluate on the test set once and at the end. How good of a loss do you achieve?
