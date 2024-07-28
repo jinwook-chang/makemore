@@ -3,6 +3,7 @@
 ## PART 1
 
 Lecture:
+
 [bigram](/part1/01_bigram.py)
 
 Exercises:
