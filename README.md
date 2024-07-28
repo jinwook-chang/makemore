@@ -10,7 +10,7 @@ Exercises:
 
 E01: train a trigram language model, i.e. take two characters as an input to predict the 3rd one. Feel free to use either counting or a neural net. Evaluate the loss; Did it improve over a bigram model?
 
-[trigram counet](/part1/0101_trigram_counter.py)  
+[trigram counter](/part1/0101_trigram_counter.py)  
 [trigram neural](/part1/0102_trigram_neural.py)
 
 
