@@ -18,7 +18,7 @@ chars = sorted(list(set("".join(words))))
 
 chars = chars + ["."]
 stoi_x = {(c[0]+c[1]) : i for i, c in enumerate(product(chars, chars))}
-itos_x = {i:s for s, i in stoi.items()}
+itos_x = {i:s for s, i in stoi_x.items()}
 
 stoi_y = {s:i for i, s in enumerate(chars)}
 itos_y = {i:s for s, i in stoi_y.items()}
